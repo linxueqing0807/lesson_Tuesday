@@ -1,0 +1,42 @@
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+    Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+/* 这里的body是选择器 */
+/* 字体样式、颜色及背景色 */
+ul.navbar {
+  /* .navbar是下文的类选择器 */
+  list-style-type: none;
+  /* 去掉链接的下划线 */
+  padding: 0;
+  margin: 0;
+  /* 内边距外边距都为0 */
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+  /* 这里的h1也是一种selector */
+  ul.navbar li {
+    /* li是列表的具体内容，改变Home page那部分 */
+     background: white;
+     margin: 0.5em 0;
+     padding: 0.3em;
+     border-right: 1em solid black }
+   ul.navbar a {
+     text-decoration: none }
+   a:link {
+     color: blue }
+   a:visited {
+     color: purple }
+   address {
+margin-top: 1em;
+padding-top: 1em;
+border-top: thin dotted
+/* 边框样式是很细的点 */
+}

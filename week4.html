@@ -1,0 +1,65 @@
+<!-- box model -->
+<!-- selector 选择HTML中的哪一部分接收CSS样式 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>css selector</title>
+    <style type="text/css">
+      /* h3 {text-align: left;} */
+      /* h3在这里叫元素选择器 */
+      /* p, h1, h2 {text-align: center;} */
+
+      /* class selector类选择器 */
+/* 定义有class属性的选择器 */
+  /* .tst1{text-align:center;} */
+
+  /* ID selector */
+  /* 具有ID属性的HTML元素，给它赋值 */
+  /* ID是独特的，一个元素一个ID，和class不一样 */
+  /* #tst1{text-align:center;}
+  h1#tst1{color:red;}
+  #tst2{text-align:center;color:green;} */
+  /* 满足了两个要求，h1居中且红色 */
+
+  /* universal selector通用选择器 */
+  /* *{color: red;} */
+/* div后代选择器 ，这个选择器里面还有其他选择器，p是div的后代，strong是p的后代*/
+/* div里被strong包围的部分，变成红色 */
+/* div strong {color: red;} */
+
+/* 伪选择器 */
+a:link{color:green;}
+a:visited{color:red;}
+a:hover{color:red;}
+    </style>
+  </head>
+
+  <body>
+<!-- <h1>The h1 text-align set to center.</h1>
+<h2>The h2 text-align set to center.</h2>
+<h3>The h3 text-align set to left.</h3>
+<p>The p text-align set to center.</p> -->
+
+<!-- <h1 class="tst1">Style applies to this element.</h1>
+<h2>The is h2 element.</h2>
+<h3>The is h3 element.</h3>
+<p class="tst1">Style applies to this element.</p> -->
+
+<!-- <h1 id="tst1">Both style declarations apply.</h1>
+<h2 id="tst2">Only one style declaration apply.</h2> -->
+
+<!-- <h1>The h1 tag color set to red.</h1>
+<h2>The h2 tag color set to red.</h2>
+<h3>The h3 tag color set to red.</h3>
+<p>The p tag color set to red.</p> -->
+
+<!-- <div><p>The red style <strong>has been applied to this element.</strong></p></div>
+<p>The red style <strong>has not been applied to this element.</strong></p> -->
+
+
+<a href="http://by.cuc.edu.cn/">Visit CUC Website</a>
+<p>The red style is applied when the mouse cursor hovers over this element.</p>
+
+  </body>
+</html>
